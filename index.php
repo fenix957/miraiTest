@@ -105,7 +105,7 @@ while ($row = $stmt->fetch()) {
 
             echo " <h3>Результат   </h3>";
             echo "<pre>" . json_encode($convertResult);
-            echo "</pre><br><a  target='_blank' href='https://mirai.f4z.ru/?action=" . $_GET["action"] . "&timestamp=" . $_GET["timestamp"] . "&city=" . $_GET["city"] . "&json=true'>Get Json </a>";
+            echo "</pre><br><a  target='_blank' href='/?action=" . $_GET["action"] . "&timestamp=" . $_GET["timestamp"] . "&city=" . $_GET["city"] . "&json=true'>Get Json </a>";
 
         }
 
