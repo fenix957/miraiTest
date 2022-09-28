@@ -1,0 +1,31 @@
+{
+    "name": "max/mirai-test",
+    "description": "Test project for Mirai",
+    "type": "project",
+    "require": {
+
+        "ext-pdo": "*",
+        "php-curl-class/php-curl-class": "dev-master",
+        "ext-json": "*"
+    },
+    "license": "gpl",
+    "autoload": {
+
+        "psr-4": {
+            "Mirai\\": ["src/"]
+
+        }
+    },
+    "authors": [
+        {
+            "name": "max",
+            "email": "max@f4z.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+        ,
+        "phpunit/phpunit": "9.*"
+    }
+}
