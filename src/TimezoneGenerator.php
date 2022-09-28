@@ -5,8 +5,7 @@ namespace Mirai;
 use Curl\Curl;
 use PDO;
 use PDOStatement;
-define( 'APP_DIR', __DIR__ . '/../' );
-
+include_once( __DIR__ . '../../vendor/autoload.php') ;
 class TimezoneGenerator
 {
 

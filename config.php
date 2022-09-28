@@ -2,6 +2,13 @@
 /**
  * App configuration
  */
+
+if (!defined('APP_DIR')) {
+
+    define ('APP_DIR', __DIR__);
+
+}
+
 $config = [];
 $config["mysql"] = [];
 $config["mysql"]["host"] = 'fenixfxv.beget.tech';

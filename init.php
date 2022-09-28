@@ -3,8 +3,8 @@
  * Init Db
  */
 
-require_once( __DIR__.'/vendor/autoload.php');
-$config = require __DIR__ . '/config.php';
+include_once( __DIR__ . '/vendor/autoload.php') ;
+$config = require APP_DIR . '/config.php';
 
 /**
  * Connection to db

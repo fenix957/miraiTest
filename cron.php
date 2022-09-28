@@ -8,8 +8,8 @@ namespace Mirai;
 
 use PDO;
 
-require_once(__DIR__ . '/vendor/autoload.php') ;
-$config = require __DIR__ . '/config.php';
+include_once( __DIR__ . '/vendor/autoload.php') ;
+$config = require APP_DIR . '/config.php';
 
 $needCountDays = 31 * 3;
 $currentDayCounter = 0;

@@ -10,6 +10,7 @@
     },
     "license": "gpl",
     "autoload": {
+        "files": [ "config.php" ],
 
         "psr-4": {
             "Mirai\\": ["src/"]
