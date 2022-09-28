@@ -41,7 +41,7 @@ while ($row = $stmt->fetch()) {
     <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <title>Тестовое задание ?></title>
+        <title>Тестовое задание </title>
     </head>
     <body>
 
